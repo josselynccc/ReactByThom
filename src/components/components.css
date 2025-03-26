@@ -1,0 +1,135 @@
+.btn {
+    padding: 10px 16px;
+    background-color: #003B70;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #2f608b;
+}
+
+.InputField{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 10px 20px 10px 30px;
+    text-align:left;
+}
+
+.InputField label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.InputField input {
+    width: 100%;
+    padding: 8px;
+    border: none; 
+    border-bottom: 3px solid #ccc; 
+    outline:none; 
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+
+  .InputField input:focus, .InputField input:active {
+    border-bottom: 3px solid #003B70;
+  }
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003B70; /* Fondo oscuro */
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-logo:hover {
+    color: #61dafb; /* Color azul claro al hacer hover */
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #61dafb; /* Color azul claro al hacer hover */
+  }
+
+  .header {
+    background-color: #003B70; /* Fondo oscuro */
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Para que el Header esté siempre arriba */
+  }
+
+  /* Estilos para el Footer */
+.footer {
+  margin-bottom: 0px;
+  background-color: #003B70; /* Fondo oscuro */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-text {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.footer-subtext {
+  margin: 0;
+  font-size: 14px;
+  color: #888; /* Texto más claro */
+}
+.main {
+  min-height: calc(100vh - 154px);
+  flex: 1;
+  padding: 20px;
+}

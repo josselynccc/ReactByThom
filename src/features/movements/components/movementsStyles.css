@@ -1,0 +1,56 @@
+.Item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+    position: relative;
+    box-shadow: 0px 5px 0px rgba(165, 158, 158, 0.1);
+}
+
+.Item div p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.Item:not(:last-child)::after {
+    content: "";
+    width: 80%; /* No ocupa todo el ancho */
+    height: 1px;
+    background: #ddd; /* Color de la línea */
+    position: absolute;
+    bottom: -5px;
+    left: 10%; /* Centra la línea */
+}
+
+.List{
+    margin-top: 10px;
+    padding: 6%;
+    border: 1px solid #ddd;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movementPage{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:rgb(171, 183, 191);
+}
+            
+.TextP{
+    color: rgb(41, 49, 94);
+    font-size: 40px;
+}
+
+.positivo{
+    color: green !important;
+    font-weight: bold;
+}
+
+.negativo{
+    color: red !important;
+    font-weight: bold;
+}
